@@ -90,7 +90,7 @@ display:none;
 }
 nav{
   z-index: 1000;
-  position: fixed;
+  position:fixed;
   right:0;
 }
 .nav-links ul li{
@@ -273,15 +273,24 @@ text-align:left;
 color:#f44336;
 }
 @media(max-width:700px){
-    .testimonial-col img{
-        margin-left:0px;
-        margin-right:15px;
+  .testimonials{
+  margin:auto;
+  }
+.testimonials .row{
+  flex-direction: column;
+  margin-right:10%;
+  margin-left:10%;
+  text-align:center;
+}
+      .testimonial-col img{
 
         }
-        .row .testimonial-col{
-        flex-direction: column;
         }
-        }
+        .testimonial-col{
+          width: 100%; /* Ustaw szerokość div1 i div2, aby pomieściły się obok siebie */
+          margin-right: 2%;
+          margin-bottom: 10px}
+
 /* -------Call to action---------- */
 .cta{
     margin:100px auto;
@@ -343,7 +352,6 @@ padding:18px 0;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    text-align:center;
   }
   #div1 p a{
     color:black;
@@ -365,7 +373,21 @@ padding:18px 0;
     }
   /* Media query - dla urządzeń o szerokości mniejszej niż 600px */
   @media (max-width: 600px) {
-    #div1, #div2 {
-      width: 100%; /* Ustaw szerokość na 100% dla małych ekranów */
+    #div1, #div2{
+        width: 100%; /* Ustaw szerokość div1 i div2, aby pomieściły się obok siebie */
+        display: inline-block;
+        margin-right: 2%;
+        margin-bottom: 10px;
     }
   }
+  @media(max-width:600px){
+  #kontener{
+  display:block;
+  text-align: center;
+  }
+  #kontener iframe{
+  height:fit-content;
+  width:fit-content;
+  }
+  }
+
