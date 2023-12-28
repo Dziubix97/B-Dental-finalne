@@ -88,6 +88,11 @@ display:none;
 .text-box h1{
         font-size:20px;
 }
+nav{
+  z-index: 1000;
+  position: fixed;
+  right:0;
+}
 .nav-links ul li{
     display:block;
 }
@@ -338,6 +343,7 @@ padding:18px 0;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
+    text-align:center;
   }
   #div1 p a{
     color:black;
