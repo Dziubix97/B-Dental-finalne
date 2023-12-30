@@ -199,6 +199,7 @@ font-family:'Poppins', sans-serif;
    width:100%;
    display:block;   
   }
+
   @media(max-width:700px){
   .course .row{
       flex-direction: column;
@@ -232,12 +233,29 @@ font-family:'Poppins', sans-serif;
   bottom:49%;
   opacity:1;
   }
+
+@media(max-width:600px){
+.layer:hover h3{
+display:none;
+}
+.layer:hover{
+display:none;
+}
+.row{
+  width: 100%; /* Ustaw szerokość div1 i div2, aby pomieściły się obok siebie */
+  display: inline-block;
+  margin-right: 2%;
+  margin-bottom: 10px;
+}
+}
+  
+  
   /*---facilities*/
   .facilities{
   width:80%;
   margin:auto;
   text-align:center;
-  padding-top:1rem;;
+  padding-top:1rem;
   }
   .facilities-col{
   flex-basis: 31%;
@@ -293,20 +311,11 @@ font-family:'Poppins', sans-serif;
   }
   @media(max-width:700px){
     .testimonials{
-    margin:auto;
-    }
-  .testimonials .row{
-    flex-direction: column;
-    margin-right:10%;
-    margin-left:10%;
-    text-align:center;
-  }
-  }
-          .testimonial-col{
-            width: 100%; /* Ustaw szerokość div1 i div2, aby pomieściły się obok siebie */
-            margin-right: 2%;
-            margin-bottom: 10px}
-  
+      width: 100%; /* Ustaw szerokość div1 i div2, aby pomieściły się obok siebie */
+      display: inline-block;
+      margin-right: 2%;
+      margin-bottom: 10px;
+    }}
   /* -------Call to action---------- */
   .cta{
       margin:100px auto;
@@ -407,3 +416,35 @@ font-family:'Poppins', sans-serif;
     width:fit-content;
     }
     }
+    /* Localizations */
+  .rowlocalizations{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+.Localizationsimages{
+      margin-bottom: 10px; /* Dodaj odstęp między divami */     
+      text-align:center;
+}
+.Localizationsimages iframe{
+  display: inline-block
+}
+    .Jak_dojechac h1{
+      font-size:36px;
+      font-weight:600;
+      text-align: center;
+    }
+  @media(min-width:600){
+    .rowlocalizations{
+      display:block;
+      text-align: center;
+    }
+    }
+   .Localizationsimages{
+    width: 100%; /* Ustaw szerokość div1 i div2, aby pomieściły się obok siebie */
+    display: inline-block;
+    margin-right: 2%;
+    margin-bottom: 10px;
+   }
+
+  
