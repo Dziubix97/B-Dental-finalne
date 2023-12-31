@@ -266,6 +266,7 @@ display:none;
   .facilities-col img{
   width:100%;
   border-radius:10px;
+  height:37rem;
   }
   .facilities-col p{
   padding:0;
@@ -421,7 +422,7 @@ display:none;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      background-color: #fff3f3;
+      background-color: #fff3f3
     }
 .Localizationsimages{
       margin-bottom: 10px; /* Dodaj odstęp między divami */     
