@@ -257,6 +257,10 @@ display:none;
   text-align:center;
   padding-top:1rem;
   }
+  .facilities p{
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+  }
   .facilities-col{
   flex-basis: 31%;
   border-radius:10px;
