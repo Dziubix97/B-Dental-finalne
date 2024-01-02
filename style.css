@@ -452,5 +452,22 @@ display:none;
     margin-right: 2%;
     margin-bottom: 10px;
    }
-
-  
+/*Sekcja 3d*/
+.Sekcja3d h1{
+  font-size:36px;
+      font-weight:600;
+      text-align: center;
+}
+.rowsekcja3d{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+background-color: #fff3f3;
+text-align:center;
+justify-content:center;
+}
+.sekcja3dimages{
+  width: 100%; /* Ustaw szerokość div1 i div2, aby pomieściły się obok siebie */
+    display: inline-block;
+    margin:3%
+}
